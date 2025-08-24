@@ -1,0 +1,93 @@
+ /*universsal->*/
+ * {
+     text-align: center;
+     padding: 5px;
+
+
+
+ }
+
+ h2 {
+     border: double whitesmoke 10px;
+ }
+
+
+ a:hover {
+     color: crimson;
+     text-decoration: underline;
+     background-color: coral;
+     padding: 12.5px;
+
+
+
+ }
+
+ a {
+     display: inline-block;
+     padding: 10px;
+     background-color: lightcoral;
+     color: white;
+     border-radius: 20px;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ /*<-universsal*/
+
+ /*index ->*/
+
+ #imagem-1:hover {
+     opacity: 0.9;
+ }
+
+ body {
+     background-color: pink;
+
+ }
+
+ #texto-inicio-index {
+     font-size: 20px;
+     display: inline;
+ }
+
+ /*<-index*/
+
+
+ /*doc1 ->*/
+ /*<-doc1*/
+
+
+ /*doc2 ->*/
+ /*<-doc2*/
+
+
+ /*doc3 ->*/
+ /*<- doc3*/
+
+ /*doc4 ->*/
+ #quem-nath {
+     margin-top: 0px;
+ }
+
+ /*<-doc4*/
+
+
+ /*doc5 ->*/
+ #espaco-paragrafo {
+     margin: 0px;
+ }
+
+ /*<-doc5*/
+
+
+
+ /*doc6 ->*/
+
+
+
+ /*<-doc6*/
+
+ /*doc7 ->*/
+
+
+ /*<-doc7*/

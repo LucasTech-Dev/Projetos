@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+   background-color: #8D7CA7; 
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.logo{
+    flex: 10%;
+     /* border: solid 2px red;*/  
+    text-align: center;
+     margin-left: 5%;
+    
+}
+  #img-logo{
+    /* border-radius: 50px; */
+    border: none;
+  }
+.menu {
+     flex: 50%;
+     /*border: solid 2px yellow;*/
+     text-align: center;
+     padding: 15px; 
+}
+.botao {
+    flex: 10%;
+    /*border: solid 1px orange;*/
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-size: 17px;
+    
+}
+.botao2 {
+    flex: 10%;
+    /*border: solid 1px orange;*/
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+    
+}
+.botao:hover  {
+  
+    color: white;
+    background-color: #553679;
+    text-decoration: underline;
+    border-radius: 15px;
+}
+.numero{
+     flex: 20%;
+     /*border: solid 3px green;*/
+     text-align: center;
+     text-decoration: none;
+     color: black;
+     padding: 15px;
+     
+}
+.botao2:hover{
+  text-decoration: underline;
+  color: #553679;
+}
+
+.header{
+  height: 500px;
+  /* background-image: url(IMG/imagem-3.jpeg);  */
+  background-size: cover;
+  background-position: top;
+   background-color: gray; 
+   /* opacity: ; */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  
+}
+
+
+.headline{
+  flex: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid 2px red;
+  padding: 50px 100px; 
+  color: white;
+  font-size: 38px;
+}
+.header-bottom{
+   height: 450px;
+   background-image: url(IMG/imagem-base.jpeg);
+   background-size: contain;
+   flex-flow: row wrap;
+   align-items: center;
+   display: flex;
+ 
+}
+.headlineh2{
+   flex: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* border: solid 2px green; */
+  padding: 50px 100px; 
+  color: white;
+  text-align: center;
+}
+h2{
+  font-size: 35px;
+}
+
+
+
