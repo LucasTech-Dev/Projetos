@@ -1,12 +1,55 @@
-*{
-    box-sizing: border-box;
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
-body{
-    margin:0;
-    margin-top: 0;
+
+label {
+    color: black;
 }
-.navbar{
-    height: 100px;
-    background-color: aquamarine;
+
+.botao-entra {
+    display: inline-block;
+    background-color: white;
+    color: lightblue;
+    padding: 5px 75px;
+    border: none;
+
+}
+
+form {
+    width: 450px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+    border: none;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.08;
+
+}
+
+.recuperar {
+    background-color: transparent;
+    border: none;
+}
+
+.cadastrar {
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 5px 65px;
 }
